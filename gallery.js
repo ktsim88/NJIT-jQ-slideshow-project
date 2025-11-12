@@ -36,8 +36,10 @@ function fetchJSON () {
   $.ajax({
     url: mUrl,
     type: "GET",
+    dataType: 'json',
     success: function (data) {
-      mImages.push(data)
+      mImages = data;
+      swapPhoto();
     },
     error: function (err) {
       console.error(err)
@@ -45,21 +47,31 @@ function fetchJSON () {
     
 
   })
-  swapPhoto();
+  
 }
 
 // Function to swap and display the next photo in the slideshow
 function swapPhoto () {
   // Access mImages[mCurrentIndex] to update the image source and details
-  
+  const currentImage = mImages[mCurrentIndex];
   // Update the #photo element's src attribute with the current image's path
+  $('#photo').attr('src', currentImage.path);
   // Update the .location, .description, and .date elements with the current image's details
+  $('.location').text(currentImage.location);
+  $('.description').text(currentImage.description);
+  $('.date').text(currentImage.date);
 }
 
 // Advances to the next photo, loops to the first photo if the end of array is reached
 function showNextPhoto () {
   // Increment mCurrentIndex and call swapPhoto()
   // Ensure it loops back to the beginning if mCurrentIndex exceeds array length
+  mCurrentIndex++;
+  swapPhoto();
+  if (mCurrentIndex < mImages.length) {
+    mCurrentIndex = 0;
+    swapPhoto();
+  }
 }
 
 // Goes to the previous photo, loops to the last photo if mCurrentIndex goes negative
