@@ -12,8 +12,8 @@ $(document).ready(() => {
   // - toggle the rotation classes (rot90 and rot270)
   // - slideToggle the visibility of the .details section
   $('.moreIndicator').on('click', () => {
-    $('.moreIndicator').toggle('rot90');
-    $('.moreIndicator').toggle('rot270');
+    $('.moreIndicator').toggleClass('rot0');
+    $('.moreIndicator').toggleClass('rot90');
     $('.details').slideToggle()
 })
   // Select the "Next Photo" button and add a click event to call showNextPhoto

@@ -1,82 +1,82 @@
 {
     "images": [
         {
-            "imgPath": "img/places/australia.jpg",
-            "imgLocation": "Australia",
-            "description": "Loch Ard Gorge",
-            "date": "01/01/2016"
+            "imgPath": "img/places/arches.png",
+            "imgLocation": "Arches National Park",
+            "description": "Utah",
+            "date": "November 12, 1971"
         },
         {
-            "imgPath": "img/places/austria.jpg",
-            "imgLocation": "Austria",
-            "description": "Austrian chapel",
-            "date": "01/02/2016"
+            "imgPath": "img/places/banff.png",
+            "imgLocation": "Banff National Park",
+            "description": "Alberta",
+            "date": "November 25, 1885"
         },
         {
-            "imgPath": "img/places/france.jpg",
-            "imgLocation": "Paris",
-            "description": "Eiffel Tower",
-            "date": "01/03/2016"
+            "imgPath": "img/places/bryce.png",
+            "imgLocation": "Bryce Canyon National Park",
+            "description": "Utah",
+            "date": "February 25, 1928"
         },
         {
-            "imgPath": "img/places/greece.jpg",
-            "imgLocation": "Greece",
-            "description": "Greek coastline",
-            "date": "01/04/2016"
+            "imgPath": "img/places/glacier.png",
+            "imgLocation": "Glacier National Park",
+            "description": "Montana",
+            "date": "May 11, 1910"
         },
         {
-            "imgPath": "img/places/hungary.jpg",
-            "imgLocation": "Hungary",
-            "description": "Budapest skyline",
-            "date": "01/05/2016"
+            "imgPath": "img/places/grandCanyon.png",
+            "imgLocation": "Grand Canyon National Park",
+            "description": "Arizona",
+            "date": "February 26, 1919"
         },
         {
-            "imgPath": "img/places/india.jpg",
-            "imgLocation": "India",
-            "description": "Taj Mahal",
-            "date": "01/06/2016"
+            "imgPath": "img/places/grandTeton.png",
+            "imgLocation": "Grand Teton National Park",
+            "description": "Wyoming",
+            "date": "February 26, 1929"
         },
         {
-            "imgPath": "img/places/italy.jpg",
-            "imgLocation": "Italy",
-            "description": "Venice",
-            "date": "01/07/2016"
+            "imgPath": "img/places/hawaiiVolcano.png",
+            "imgLocation": "Hawaiʻi Volcanoes National Park",
+            "description": "Hawaii",
+            "date": "August 1, 1916"
         },
         {
-            "imgPath": "img/places/japan.jpg",
-            "imgLocation": "Japan",
-            "description": "Hirosaki Castle",
-            "date": "01/08/2016"
+            "imgPath": "img/places/mountRainer.png",
+            "imgLocation": "Mount Rainer National Park",
+            "description": "Washington State",
+            "date": "March 2, 1899"
         },
         {
-            "imgPath": "img/places/korea.jpg",
-            "imgLocation": "South Korea",
-            "description": "Seoul",
-            "date": "01/09/2016"
+            "imgPath": "img/places/rockyMountains.png",
+            "imgLocation": "Rocky Mountains National Park",
+            "description": "Colorado",
+            "date": "January 26, 1915"
         },
         {
-            "imgPath": "img/places/norway.jpg",
-            "imgLocation": "Norway",
-            "description": "Countryside mountains",
-            "date": "01/10/2016"
+            "imgPath": "img/places/sequoia.png",
+            "imgLocation": "Sequoia National Park",
+            "description": "California",
+            "date": "October 1, 1890"
         },
         {
-            "imgPath": "img/places/switzerland.jpg",
-            "imgLocation": "Switzerland",
-            "description": "Lake castle",
-            "date": "01/11/2016"
+            "imgPath": "img/places/yellowstone.png",
+            "imgLocation": "Yellowstone National Park",
+            "description": "Wyoming",
+            "date": "March 1, 1872"
         },
         {
-            "imgPath": "img/places/thailand.jpg",
-            "imgLocation": "Thailand",
-            "description": "Beachline",
-            "date": "01/12/2016"
+            "imgPath": "img/places/yosmite.png",
+            "imgLocation": "Yosemite National Park",
+            "description": "California",
+            "date": "October 1, 1890"
         },
         {
-            "imgPath": "img/places/turkey.jpg",
-            "imgLocation": "Turkey",
-            "description": "Istanbul",
-            "date": "01/13/2016"
+            "imgPath": "img/places/zion.png",
+            "imgLocation": "Zion National Park",
+            "description": "Utah",
+            "date": "November 19, 1919"
         }
   ]
 }
